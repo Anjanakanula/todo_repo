@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyo
+*.pyc
+*.pyz
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+
+# DRF
+*.pyc
+*.pyo
+*.pyz
+*.pyw
+*.pyo
+*.pyc
+*.pyz
+
+# Streamlit
+streamlit/**/*.pyc
+streamlit/**/*.pyo
+streamlit/**/*.pyz
+streamlit/**/*.pyw
+streamlit/**/*.pyo
+streamlit/**/*.pyc
+streamlit/**/*.pyz
+venv/env/
