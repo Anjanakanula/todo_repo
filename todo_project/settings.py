@@ -26,7 +26,8 @@ SECRET_KEY = "django-insecure-w!hr)&)8rmyq-p^!lf!@0_b)j4#l-co4nsdc@@x5dj3)9!x7u7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.70.4']
+
+ALLOWED_HOSTS = ["192.168.70.4"]
 
 
 # Application definition
@@ -80,8 +81,8 @@ WSGI_APPLICATION = "todo_project.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -149,4 +150,4 @@ MEDIA_ROOT = BASE_DIR /"media"
 
 MEDIA_URL = "/media/"
 
-SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+#SESSION_ENGINE = 'django.contrib.sessions.backends.db'
