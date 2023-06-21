@@ -83,6 +83,7 @@ if 'logged_in' in st.session_state and st.session_state['logged_in']:
     token = st.session_state['token']  
     UserName = st.session_state['username']
     col1,col2 = st.columns([8,2])
+    
     with col1:
         selected = option_menu(
             menu_title="",
@@ -212,11 +213,11 @@ if 'logged_in' in st.session_state and st.session_state['logged_in']:
                 st.error("Failed to fetch data from the backend")
 
                        
-    # with col2:
-    #     a,b = st.columns([4,6])
-    #     with b:
-    #         image = "/home/gopikrishna/Todo/Todo_Env/Todo_Project/images/profile_photo.jpg"
-    #         st.image(image, caption=UserName, width=160)
+    with col2:
+        a,b = st.columns([3,5])
+        with b:
+            image="/home/anjana/todo_project/pp2.png"
+            st.image(image, caption=UserName, width=160)
         
 
 

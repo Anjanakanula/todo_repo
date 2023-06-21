@@ -211,12 +211,11 @@ if 'logged_in' in st.session_state and st.session_state['logged_in']:
             else:
                 st.error("Failed to fetch data from the backend")
 
-                       
-    # with col2:
-    #     a,b = st.columns([4,6])
-    #     with b:
-    #         image = "/home/gopikrishna/Todo/Todo_Env/Todo_Project/images/profile_photo.jpg"
-    #         st.image(image, caption=UserName, width=160)
+    with col2:
+        a,b = st.columns([3,5])
+        with b:
+            image="/home/anjana/todo_project/pp2.png"
+            st.image(image, caption= "Profile photo", width=160)
         
 
 
